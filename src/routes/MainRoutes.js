@@ -16,7 +16,8 @@ const Teknisi = Loadable(lazy(() => import('views/master-data/Teknisi')));
 const Customer = Loadable(lazy(() => import('views/master-data/Customer')));
 
 // sales routing
-const Products = Loadable(lazy(() => import('views/sales/products')));
+const Products = Loadable(lazy(() => import('views/catalog/products')));
+const Orders = Loadable(lazy(() => import('views/sales/order')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -47,6 +48,10 @@ const MainRoutes = {
     {
       path: '/products',
       element: <Products />
+    },
+    {
+      path: '/orders',
+      element: <Orders />
     }
   ]
 };

@@ -1,0 +1,11 @@
+.leaflet-container {
+  height: 100%;
+}
+
+.leaflet-popup-content {
+  width: max-content !important;
+  max-width: 350px !important;
+}
+.leaflet-popup-content a {
+  color: white !important;
+}

@@ -11,10 +11,10 @@ const sales = {
   type: 'group',
   children: [
     {
-      id: 'product',
-      title: 'Products',
+      id: 'order',
+      title: 'Orders',
       type: 'item',
-      url: '/products',
+      url: '/orders',
       icon: icons.AiOutlineShoppingCart,
       breadcrumbs: false
     }
